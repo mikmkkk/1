@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALISai</title>
+</head>
+<body>
+    <h2>HapY</h2>
+    <div class="all">
+        <div id="search-container">
+            <div class="nebula"></div>
+            <div class="starfield"></div>
+            <div class="cosmic-dust"></div>
+            <div class="stardust"></div>
+            <div class="cosmic-ring"></div>
+            <div id="main">
+                <input class="input" name="text" type="text" placeholder="Search or type a URL" />
+                <div id="cosmic-glow"></div>
+                <div id="search-icon">
+                    <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="url(#cosmic-search)"
+                        fill="none" height="24" width="24" viewBox="0 0 24 24">
+                        <circle r="8" cy="11" cx="11"></circle>
+                        <line y2="16.65" x2="16.65" y1="21" x1="21"></line>
+                        <defs>
+                            <linearGradient gradientTransform="rotate(45)" id="cosmic-search">
+                                <stop stop-color="#0DB8DB" offset="0%"></stop>
+                                <stop stop-color="#0dcaf0" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
